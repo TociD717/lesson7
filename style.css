@@ -1,0 +1,73 @@
+p {
+    margin: 5px 10px;
+}
+div {
+    border: solid red 2px;
+    margin: 10px 5px;
+    width: 400px;
+    height: 100px;
+}
+span {
+    border: solid green 2px;
+    padding: 0px 10px;
+    font-size: 3rem;
+    color: crimson;
+}
+.inline {
+    display: inline;
+}
+.inline-block {
+    display: inline-block;
+}
+.block {
+    display: block;
+}
+.border-box {
+    box-sizing: border-box;
+}
+.content-box {
+    box-sizing: content-box;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.no-float {
+    clear: both;
+}
+.first-overflow-block {
+    display: inline-block;
+    overflow: hidden;
+}
+.second-overflow-block {
+    display: inline-block;
+    overflow: scroll;
+}
+.third-overflow-block {
+    overflow: visible;
+}
+.absolute-div {
+    position: absolute;
+    left: 40vw;
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.relative-div {
+    position: relative;
+    left: 400px;
+    background-color: rgba(255, 0, 255, 0.486);
+}
+.fixed-div {
+    background-color: rgba(0, 0, 255, 0.205);
+    position: fixed;
+}
+.sticky-div {
+    background-color: rgba(255, 255, 0, 0.466);
+    position: sticky;
+    top: 20px;
+    display: inline-block;
+}
+.big-text {
+    font-size: 4rem;
+}
